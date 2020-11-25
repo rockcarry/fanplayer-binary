@@ -18,6 +18,9 @@ ctrl+T   - 变速方式
 ctrl+X   - 旋转视频（仅支持 d3d 模式）
 ctrl+C   - 将当前播放视频录制到 record.mp4 文件
 ctrl+W   - 自动调整视频显示区域大小为视频源分辨率
+ctrl+D   - 显示清晰度评价数值
+ctrl+0   - 恢复缩放大小（不缩放）
+鼠标右键 - 右键拖选矩形区域可以放大播放
 
 
 命令行传参数：
@@ -50,6 +53,14 @@ ffspliter rtmp://live.hkstv.hk.lxdns.com/live/hks -1 10000000 test.mp4
 +----------+
  change log
 +----------+
+
+v1.8.0
+------
+1. 优化对 avkcp 和 ffrdp 的支持
+2. 解决 avkcp 和 ffrdp android 平台硬件解码的问题
+3. 实现鼠标右键拖选矩形区域放大播放的功能
+4. 实现 overlay 叠加图层，支持更加酷炫的 UI 效果
+5. 架构优化和代码优化更加稳定高效
 
 v1.7.0
 ------

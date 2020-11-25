@@ -9,6 +9,8 @@
 @rem -framerate=xx   指定视频帧率
 @rem -vbitrate=xxx   指定视频编码码率
 @rem -rtsp=xxxx      使用 rtsp 服务器直播
+@rem -avkcps=xxxx    使用 avkcps 服务器直播，xxxx 为端口号
+@rem -ffrdps=xxxx    使用 ffrdps 服务器直播，xxxx 为端口号
 @rem -rtmp=url       使用 rtmp 推流直播
 @rem -mp4=filename   屏幕录制保存到 .mp4 文件
 @rem -duration=xxx   指定录像分段时长 ms 为单位
