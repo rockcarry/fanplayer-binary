@@ -20,6 +20,7 @@ ctrl+C   - 将当前播放视频录制到 record.mp4 文件
 ctrl+W   - 自动调整视频显示区域大小为视频源分辨率
 ctrl+D   - 显示清晰度评价数值
 ctrl+0   - 恢复缩放大小（不缩放）
+ctrl+L   - 播放 livedesk ffrdp 直播流时，进入远程控制模式
 鼠标右键 - 右键拖选矩形区域可以放大播放
 
 
@@ -53,6 +54,14 @@ ffspliter rtmp://live.hkstv.hk.lxdns.com/live/hks -1 10000000 test.mp4
 +----------+
  change log
 +----------+
+
+v1.8.4
+------
+1. 实现 livedesk ffrdp 的鼠标+键盘远程控制功能
+2. 优化 ctrl+c，ctrl+s 录像和截屏功能的保存路径为 fanplayer.exe 所在路径
+3. 优化 vdev 的代码，解决 player-win32 播放视频不够清晰的问题
+4. 解决 player-win32 使用 d3d 渲染出现 d3d 设备丢失后视频不显示或者崩溃的问题
+5. 各种异常情况下的代码稳定性优化
 
 v1.8.0
 ------
